@@ -1,0 +1,22 @@
+{
+	"name": "Login-System",
+	"version": "1.0.0",
+	"description": "This is a simple login system on nodejs with express",
+	"main": "index.js",
+	"author": "Rasel-dev",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"build": "nodemon index.js"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mysql": "^2.18.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
